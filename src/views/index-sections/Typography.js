@@ -29,15 +29,19 @@ function Typography() {
           <div id="typography">
             <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
+            <h4 className="title">Tell this sentence to Test stress</h4>    
+                <h5>එක අරගන්න.<br/>මෙතනින් ඉදගන්න.<br/>
+                          මේ වැඩෙ ඉවර කරන්න.</h5>
               <Card>
                 <CardHeader>
-                  
+                     
                 </CardHeader>
                 <CardBody>
                 <TabContent
                     className="text-center"
                     activeTab={"iconPills" + iconPills}
                   >
+           
                      <TabPane tabId="iconPills1">
                      <RecorderComp/>
                      </TabPane>

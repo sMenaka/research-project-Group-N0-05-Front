@@ -57,6 +57,7 @@ const handleRest=()=> {
 }
   return(
     <div>
+
       {(res != null)?(<div className="content-center brand"><h3 className="title">{"Your are now "+res}</h3>
       <Button className="btn-round" size="lg" color="info" outline type="button" onClick={()=>{setRes(null)}} >
       Again
